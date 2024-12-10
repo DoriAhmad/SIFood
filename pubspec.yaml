@@ -1,0 +1,32 @@
+name: SiFood
+description: "Aplikasi Pesan Makanan"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  badges: ^3.1.2
+  http: ^1.2.2
+  provider: ^6.1.2
+  intl: ^0.18.0
+  image_picker: ^0.8.5+3
+  shared_preferences: ^2.0.15
+  video_player: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/SiFood.png
+    
